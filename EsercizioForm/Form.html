@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <label for="Email">Email</label>
+        <input type="Email" name="Email"><br>
+        <label for="Password">Password</label>
+        <input type="password" name="Password"><br>
+        <label for="First_name">First name</label>
+        <input type="text" name="First_name">
+        <label for="Last_name">Last name</label>
+        <input type="text" name="Last_name"><br>
+        <label for="Date_of_birth">Date of birth</label>
+        <input type="date" name="Date_of_birth"><br>
+        <label for="Telephone_number">Telephone</label>
+        <input type="tel" name="Telephone_number"><br>
+        <label for="Plans">Plans</label>
+        <select name="Plans" id="Plans">
+            <optgroup label="Free plans">
+            <option value="Free plan">Free plan 0 $ </option>
+            </optgroup>
+            <optgroup label="Payment plans">
+            <option value="Chepest plan ">Chepest plan 50$ </options>
+            <option value="intermediate plan">intermediate plan 100$</option>
+            <option value="Expensive plan">Expensive plan 150$</option>
+            </optgroup>
+        </select>
+        <label for="Pro_plan_checkbox">Pro plan</label>
+        <input type="checkbox"name="Pro_plan_checkbox">
+        <h2>Credit card</h2>
+        <label>Card Number</label>
+        <input type="text" name="card-number"
+        maxlength="19" placeholder="1234 5678 9101 1121"><br>
+        <label>Name</label>
+        <input type="text" name="Nam-text"
+        maxlength="30" placeholder="Matteo Durso"><br>
+        <label>Expire Date</label>
+        <input type="text" name="Espire-date"
+        maxlength="5" placeholder="08/36"> <br>
+        <label>CVV</label>
+        <input type="text" name="CVV-number"
+        maxlength="3" placeholder="123"><br>
+        <label>Billing address</label>
+        <input type="text" name="Billing-address"
+        maxlength="30" placeholder="Via Roma,300"><br>
+    </form>
+</body>
+</html>
